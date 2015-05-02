@@ -5,8 +5,9 @@ To run the react app locally
 
     npm install
     export PATH="./node_modules/.bin:$PATH"
-
+    
+    ulimit -n 2560
     gulp
-    python -m SimpleHTTPServer 3000
+    python -m SimpleHTTPServer 4001
 
-    visit http://localhost:3000 to see the running app
+    visit http://localhost:4001/index.html to see the running app
