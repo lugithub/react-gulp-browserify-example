@@ -1,4 +1,4 @@
 var React = require('react');
-var hello = require('./hello.jsx');
+var Hello = require('./hello.jsx');
 
-React.renderComponent(hello({name: 'World'}), document.getElementById('app'));
+React.render(<Hello name='world'/>, document.getElementById('app'));
